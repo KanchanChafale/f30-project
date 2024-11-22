@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    
+    background-image: url("image/R.jfif");
+    background-size: cover;
+}
+li:hover{
+    text-decoration:3px  rgb(192, 164, 164) underline;
+}
+.main-container{
+    font-family: Butter Chicken !important;
+    width: 100%;
+    height: 100%;
+}
+.nav-item{
+    font-size: 30px;
+    font-weight: 600;
+}
+.head{
+    color:#556270;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 80px;
+}
+.head1{
+    color: #6E48AA;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.head2{
+    width: 600px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.btn{
+
+     
+     padding: 10px;
+     margin-left: 100px;
+     border-radius: 20px;
+    }
+button{
+    padding: 10px;
+    border-radius: 20px !important;
+
+}
+button:hover{
+    background-color: pink;
+ 
+}
+
+
+@media screen and (min-width:321px) and (max-width:412px) {
+    body{
+        font-family: Butter Chicken !important;
+        background-image: url("image/c6c1dc502d6b6cdac864602768d56c4e.jpg");
+        
+    }
+    .head{
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 60px;
+    }
+    .head1{
+        margin-left: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .head2{
+        width: 80%;
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    
+    
+}
+.container{
+    width: 100%;
+   /* background-color: rgba(114, 21, 21, 0.651); */
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgba(117, 95, 107, 0.705);
+    padding: 20px;
+    /* padding-top: 30px; */
+    height: auto;
+}
+.footer-col{
+    width: 25%;
+    padding: 10px;
+}
+.footer-col h4{
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(31, 34, 33);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(5, 5, 5);
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: rgb(202, 238, 168);
+    padding-left: 8px;
+}
+@media screen and (min-width:321px) and (max-width:768px){
+    footer{
+        font-family: Butter Chicken !important;
+    }   
+    
+    .footer-col{
+       width: 50%;
+       margin-bottom: 30px;
+    }
+}
+
+    
+     
+
+

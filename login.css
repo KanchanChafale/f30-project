@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: Butter Chicken !important;
+    background-image: url("image/R.jfif");
+    background-size: cover;
+}
+li:hover{
+    text-decoration:3px  rgb(192, 164, 164) underline;
+}
+.main-container{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.nav-item{
+    font-size: 30px;
+    font-weight: 600;
+}
+.head{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 80px;
+}
+.head1{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.head2{
+    width: 600px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.btn{
+     padding: 10px;
+     margin-left: 100px;
+     border-radius: 20px;
+    }
+button{
+    padding: 10px;
+    border-radius: 15px !important;
+
+}
+button:hover{
+    background-color: pink;
+ 
+}
+
+
+@media screen and (min-width:321px) and (max-width:412px) {
+    body{
+        font-family: Butter Chicken !important;
+        background-image: url("image/c6c1dc502d6b6cdac864602768d56c4e.jpg");
+        
+    }
+    .head{
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 60px;
+    }
+    .head1{
+        margin-left: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .head2{
+        width: 80%;
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    
+    
+}
+.container{
+    width: 100%;
+   /* background-color: rgba(114, 21, 21, 0.651); */
+    margin: auto;
+    
+}
+.row{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+
+}
+
+.his{ 
+    color: rgb(247, 67, 193); 
+    font-weight: 600; 
+    text-align: center; 
+   
+} 
+ 
+.sign-form{ 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+ 
+ 
+                /* For Small Devices start */ 
+ 
+ 
+@media screen and (min-width: 321px) and (max-width: 412px) { 
+   
+    .his{ 
+        font-size: 40px; 
+    } 
+    form{ 
+        width: 70%; 
+        height: 80%; 
+        padding-left: 5%; 
+        padding-right: 5%; 
+        background-color: blanchedalmond; 
+        padding: 20px; 
+        border-radius: 20px; 
+    } 
+    .btn-1{ 
+        width: 200px; 
+        height: 30px; 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+         
+    } 
+    .btn-2{ 
+        width: 200px; 
+        height: 30px; 
+        background-color:rgb(194, 189, 189); 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+         
+    } 
+    .btn-3{ 
+        width: 200px; 
+        height: 30px; 
+        background-color:rgb(156, 150, 150); 
+        border-radius: 10px; 
+        font-weight: 600;    
+        padding-bottom: 30px;
+    } 
+ 
+ 
+     
+} 
+ 
+ 
+ 
+                /* For Small Devices end */ 
+ 
+ 
+ 
+                 
+                /* For medium Devices start */ 
+ 
+@media screen and (min-width: 413px) and (max-width: 821px) { 
+    
+   
+    form{ 
+        width: 40%; 
+        height: 80%;  
+        padding-left: 5%; 
+        padding-right: 5%; 
+        background-color: blanchedalmond; 
+        padding: 20px; 
+        border-radius: 20px; 
+         
+    } 
+    .btn-1{ 
+        width: 250px; 
+        height: 30px; 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+    } 
+    .btn-2{ 
+        width: 250px; 
+        height: 30px; 
+        background-color:rgb(194, 189, 189); 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+    } 
+    .btn-3{ 
+        width: 250px; 
+        height: 30px; 
+        background-color:rgb(156, 150, 150); 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+    } 
+    
+ 
+ 
+} 
+ 
+ 
+ 
+                /* For medium Devices end */ 
+ 
+ 
+                  /* For large Devices start */ 
+ 
+ 
+ 
+@media screen and (min-width: 1024px){ 
+  
+    form{ 
+        width: 30%; 
+        height: 80%;  
+        padding-left: 5%; 
+        padding-right: 5%; 
+        background-color: blanchedalmond; 
+        padding: 20px; 
+        border-radius: 20px; 
+    } 
+    .btn-1{ 
+        width: 350px; 
+        height: 30px; 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+    } 
+    .btn-2{ 
+        width: 350px; 
+        height: 30px; 
+        background-color:rgb(194, 189, 189); 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px; 
+    } 
+    .btn-3{ 
+        width: 350px; 
+        height: 30px; 
+        background-color:rgb(156, 150, 150); 
+        border-radius: 10px; 
+        font-weight: 600; 
+        padding-bottom: 30px;
+    } 
+ 
+ 
+} 
+ 
+ 
+                    /* For large Devices end */
+
+
