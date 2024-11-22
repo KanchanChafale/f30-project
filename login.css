@@ -9,7 +9,7 @@ body,html{
 }
 body{
     font-family: Butter Chicken !important;
-    background-image: url("image/R.jfif");
+    background-image: url("image/R.jfif") !important;
     background-size: cover;
 }
 li:hover{

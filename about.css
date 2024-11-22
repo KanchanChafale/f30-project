@@ -24,6 +24,8 @@ li:hover {
     font-family: Butter Chicken !important;
     width: 100%;
     height: 100%;
+    background-image: url("image/R.jfif");
+    background-size: cover;
 }
 
 .nav-item {
